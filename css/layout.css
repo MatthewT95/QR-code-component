@@ -1,5 +1,29 @@
+/* Defines layout of the entire page */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+        "page-content"
+        "attribution";
+}
+
+.page-content {
+    grid-area: page-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    grid-area: attribution;
 }
