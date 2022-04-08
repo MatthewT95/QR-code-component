@@ -25,12 +25,12 @@
 }
 
 .qr-code-header {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #1F314F;
 
 }
 
 .qr-code-details {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #7D889E;
 }
