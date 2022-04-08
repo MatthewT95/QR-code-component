@@ -15,6 +15,7 @@ body {
     grid-template-areas:
         "page-content"
         "attribution";
+    background-color: #D5E1EF;
 }
 
 .page-content {
