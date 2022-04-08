@@ -22,15 +22,16 @@
     line-height: 1.25;
     margin: 20px 0px;
     padding: 0px 20px;
+    text-align: center;
 }
 
 .qr-code-header {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #1F314F;
 
 }
 
 .qr-code-details {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #7D889E;
 }
